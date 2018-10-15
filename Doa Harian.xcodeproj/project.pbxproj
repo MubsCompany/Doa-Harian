@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52232F862174467800D196D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52232F852174467800D196D6 /* AppDelegate.swift */; };
+		52232F882174467800D196D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52232F872174467800D196D6 /* ViewController.swift */; };
+		52232F8B2174467800D196D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52232F892174467800D196D6 /* Main.storyboard */; };
+		52232F8D2174467900D196D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52232F8C2174467900D196D6 /* Assets.xcassets */; };
+		52232F902174467900D196D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52232F8E2174467900D196D6 /* LaunchScreen.storyboard */; };
+		52232F9B2174467900D196D6 /* Doa_HarianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52232F9A2174467900D196D6 /* Doa_HarianTests.swift */; };
+		52232FA62174467900D196D6 /* Doa_HarianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52232FA52174467900D196D6 /* Doa_HarianUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52232F972174467900D196D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52232F7A2174467800D196D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52232F812174467800D196D6;
+			remoteInfo = "Doa Harian";
+		};
+		52232FA22174467900D196D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52232F7A2174467800D196D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52232F812174467800D196D6;
+			remoteInfo = "Doa Harian";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52232F822174467800D196D6 /* Doa Harian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Doa Harian.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52232F852174467800D196D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52232F872174467800D196D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52232F8A2174467800D196D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52232F8C2174467900D196D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52232F8F2174467900D196D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52232F912174467900D196D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52232F962174467900D196D6 /* Doa HarianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Doa HarianTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52232F9A2174467900D196D6 /* Doa_HarianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doa_HarianTests.swift; sourceTree = "<group>"; };
+		52232F9C2174467900D196D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52232FA12174467900D196D6 /* Doa HarianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Doa HarianUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52232FA52174467900D196D6 /* Doa_HarianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doa_HarianUITests.swift; sourceTree = "<group>"; };
+		52232FA72174467900D196D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52232F7F2174467800D196D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52232F932174467900D196D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52232F9E2174467900D196D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52232F792174467800D196D6 = {
+			isa = PBXGroup;
+			children = (
+				52232F842174467800D196D6 /* Doa Harian */,
+				52232F992174467900D196D6 /* Doa HarianTests */,
+				52232FA42174467900D196D6 /* Doa HarianUITests */,
+				52232F832174467800D196D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52232F832174467800D196D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52232F822174467800D196D6 /* Doa Harian.app */,
+				52232F962174467900D196D6 /* Doa HarianTests.xctest */,
+				52232FA12174467900D196D6 /* Doa HarianUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52232F842174467800D196D6 /* Doa Harian */ = {
+			isa = PBXGroup;
+			children = (
+				52232F852174467800D196D6 /* AppDelegate.swift */,
+				52232F872174467800D196D6 /* ViewController.swift */,
+				52232F892174467800D196D6 /* Main.storyboard */,
+				52232F8C2174467900D196D6 /* Assets.xcassets */,
+				52232F8E2174467900D196D6 /* LaunchScreen.storyboard */,
+				52232F912174467900D196D6 /* Info.plist */,
+			);
+			path = "Doa Harian";
+			sourceTree = "<group>";
+		};
+		52232F992174467900D196D6 /* Doa HarianTests */ = {
+			isa = PBXGroup;
+			children = (
+				52232F9A2174467900D196D6 /* Doa_HarianTests.swift */,
+				52232F9C2174467900D196D6 /* Info.plist */,
+			);
+			path = "Doa HarianTests";
+			sourceTree = "<group>";
+		};
+		52232FA42174467900D196D6 /* Doa HarianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52232FA52174467900D196D6 /* Doa_HarianUITests.swift */,
+				52232FA72174467900D196D6 /* Info.plist */,
+			);
+			path = "Doa HarianUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52232F812174467800D196D6 /* Doa Harian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52232FAA2174467900D196D6 /* Build configuration list for PBXNativeTarget "Doa Harian" */;
+			buildPhases = (
+				52232F7E2174467800D196D6 /* Sources */,
+				52232F7F2174467800D196D6 /* Frameworks */,
+				52232F802174467800D196D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Doa Harian";
+			productName = "Doa Harian";
+			productReference = 52232F822174467800D196D6 /* Doa Harian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52232F952174467900D196D6 /* Doa HarianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52232FAD2174467900D196D6 /* Build configuration list for PBXNativeTarget "Doa HarianTests" */;
+			buildPhases = (
+				52232F922174467900D196D6 /* Sources */,
+				52232F932174467900D196D6 /* Frameworks */,
+				52232F942174467900D196D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52232F982174467900D196D6 /* PBXTargetDependency */,
+			);
+			name = "Doa HarianTests";
+			productName = "Doa HarianTests";
+			productReference = 52232F962174467900D196D6 /* Doa HarianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52232FA02174467900D196D6 /* Doa HarianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52232FB02174467900D196D6 /* Build configuration list for PBXNativeTarget "Doa HarianUITests" */;
+			buildPhases = (
+				52232F9D2174467900D196D6 /* Sources */,
+				52232F9E2174467900D196D6 /* Frameworks */,
+				52232F9F2174467900D196D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52232FA32174467900D196D6 /* PBXTargetDependency */,
+			);
+			name = "Doa HarianUITests";
+			productName = "Doa HarianUITests";
+			productReference = 52232FA12174467900D196D6 /* Doa HarianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52232F7A2174467800D196D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Mubs;
+				TargetAttributes = {
+					52232F812174467800D196D6 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					52232F952174467900D196D6 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 52232F812174467800D196D6;
+					};
+					52232FA02174467900D196D6 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 52232F812174467800D196D6;
+					};
+				};
+			};
+			buildConfigurationList = 52232F7D2174467800D196D6 /* Build configuration list for PBXProject "Doa Harian" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52232F792174467800D196D6;
+			productRefGroup = 52232F832174467800D196D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52232F812174467800D196D6 /* Doa Harian */,
+				52232F952174467900D196D6 /* Doa HarianTests */,
+				52232FA02174467900D196D6 /* Doa HarianUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52232F802174467800D196D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52232F902174467900D196D6 /* LaunchScreen.storyboard in Resources */,
+				52232F8D2174467900D196D6 /* Assets.xcassets in Resources */,
+				52232F8B2174467800D196D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52232F942174467900D196D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52232F9F2174467900D196D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52232F7E2174467800D196D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52232F882174467800D196D6 /* ViewController.swift in Sources */,
+				52232F862174467800D196D6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52232F922174467900D196D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52232F9B2174467900D196D6 /* Doa_HarianTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52232F9D2174467900D196D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52232FA62174467900D196D6 /* Doa_HarianUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52232F982174467900D196D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52232F812174467800D196D6 /* Doa Harian */;
+			targetProxy = 52232F972174467900D196D6 /* PBXContainerItemProxy */;
+		};
+		52232FA32174467900D196D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52232F812174467800D196D6 /* Doa Harian */;
+			targetProxy = 52232FA22174467900D196D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52232F892174467800D196D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52232F8A2174467800D196D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52232F8E2174467900D196D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52232F8F2174467900D196D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52232FA82174467900D196D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52232FA92174467900D196D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52232FAB2174467900D196D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Doa Harian/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MubsCompany.Doa-Harian";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52232FAC2174467900D196D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Doa Harian/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MubsCompany.Doa-Harian";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52232FAE2174467900D196D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Doa HarianTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MubsCompany.Doa-HarianTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Doa Harian.app/Doa Harian";
+			};
+			name = Debug;
+		};
+		52232FAF2174467900D196D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Doa HarianTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MubsCompany.Doa-HarianTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Doa Harian.app/Doa Harian";
+			};
+			name = Release;
+		};
+		52232FB12174467900D196D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Doa HarianUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MubsCompany.Doa-HarianUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Doa Harian";
+			};
+			name = Debug;
+		};
+		52232FB22174467900D196D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Doa HarianUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MubsCompany.Doa-HarianUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Doa Harian";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52232F7D2174467800D196D6 /* Build configuration list for PBXProject "Doa Harian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52232FA82174467900D196D6 /* Debug */,
+				52232FA92174467900D196D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52232FAA2174467900D196D6 /* Build configuration list for PBXNativeTarget "Doa Harian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52232FAB2174467900D196D6 /* Debug */,
+				52232FAC2174467900D196D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52232FAD2174467900D196D6 /* Build configuration list for PBXNativeTarget "Doa HarianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52232FAE2174467900D196D6 /* Debug */,
+				52232FAF2174467900D196D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52232FB02174467900D196D6 /* Build configuration list for PBXNativeTarget "Doa HarianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52232FB12174467900D196D6 /* Debug */,
+				52232FB22174467900D196D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52232F7A2174467800D196D6 /* Project object */;
+}
